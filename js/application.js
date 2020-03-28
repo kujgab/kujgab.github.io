@@ -5,12 +5,12 @@ window.requestAnimationFrame(function () {
 
 
     var imageList = [
-        "img/212/2.gif",
-        "img/212/4.gif",
-        "img/212/8.gif",
-        "img/212/16.gif",
-        "img/212/32.gif",
-        "img/212/64.gif",        
+        "img/2.gif",
+        "img/4.gif",
+        "img/8.gif",
+        "img/16.gif",
+        "img/32.gif",
+        "img/64.gif",        
     ];
     for(var i = 0; i < imageList.length; i++ ) 
     {
