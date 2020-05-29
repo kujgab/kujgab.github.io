@@ -64,7 +64,7 @@ GameManager.prototype.addWinningTiles = function () {
     this.grid = new Grid(this.size);
     for (var k = 0; k < 4; k++) {
         for (var l = 0; l < 4; l++) {
-            var tile = new Tile({x:k, y:l}, 64)
+            var tile = new Tile({x:k, y:l}, 2048)
             this.grid.cells[tile.x][tile.y] = null;
             this.grid.insertTile(tile);
         }
